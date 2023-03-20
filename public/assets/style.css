@@ -1,0 +1,429 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #303030;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo img {
+    padding-top: 13px;
+}
+
+ .header-menu ul li {
+    float: left;
+    list-style: none;
+    padding: 25px 10px;
+    transition: .3s;
+}
+
+ .header-menu ul li:hover{
+    background-color: #ffd000
+}
+
+.header-menu ul {
+    float: right;
+} 
+
+.header-menu ul li a {
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .3s;
+}
+
+/* about section start here */
+
+.about {
+    padding: 70px 0px;
+}
+
+.about-wrapper {
+}
+
+.about-content {width: 600px;float: left;margin-right: 100px;}
+
+.about-img {
+    width: 400px;
+    float: right;
+    overflow: hidden;
+}
+
+.about-img img {
+    width: 100%;
+    transition: .3s;
+    
+}
+
+.about-img img:hover {
+    transform: scale(1.1);
+}
+
+h1.about-title {
+    padding: 20px 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+
+.about-content p {
+    line-height: 25px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+button.btn:hover {
+    background-color: #ffd000;
+    color: #000;
+    cursor: pointer;
+}
+
+button.btn {
+    padding: 15px 20px;
+    background: #333;
+    color: white;
+    font-size: 12px;
+    transition: .3s;
+    border: none;
+}
+
+
+        /* Catagory section start here */
+
+section.catalogue {
+    background: #ffd000;
+    margin-top: 280px;
+    margin-bottom: 70px;
+    
+}
+
+.catalogue-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+
+.catalogue-content {
+    padding-top: 45px;
+    text-align: center;
+}
+
+.catalogue-content h3 {
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #444;
+}
+
+.catalogue-content h2 {
+    font-family: sans-serif;
+    font-size: 19px;
+    padding: 10px 1px;
+}
+
+
+/* festurs product start here */
+
+.featured-products {
+    padding: 70px 0px;
+    background: #EEEEEE;
+}
+
+h1.featured-title {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.Featured-wrapper {overflow: hidden;}
+
+.single-Featured {
+    width: 242px;
+    float: left;
+    margin-right: 50px;
+    background: white;
+    padding: 10px;
+}
+
+.single-Featured:last-child {
+    margin-right: 0px;
+}
+
+.single-img img {
+    width: 100%;
+}
+
+.single-content {
+    padding: 10px 0px 90px 10px;
+}
+
+.single-content h3 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.single-content ul {
+    padding-left: 20px;
+}
+
+.single-content ul li {padding-bottom: 10px;font-family: math;font-size: 14px;line-height: 22px;}
+
+button.button{
+    padding: 15px 48px;
+    background: #333;
+    color: white;
+    font-size: 12px;
+    transition: .3s;
+    border: none;
+}
+
+button.button:hover {
+    background-color: #ffd000;
+    color: #000;
+    cursor: pointer;
+}
+
+
+       /* Featured Applications section start here */
+
+
+.featured-application {
+    background: #FBC200;
+    padding: 50px 0px;
+}
+
+.single-application {
+    width: 242px;
+    float: left;
+    margin-right: 50px;
+    padding: 10px;
+    background: white;
+}
+
+.application-img{
+    overflow: hidden;
+}
+
+.application-img img {
+    width: 100%;
+    transition: .3s;
+}
+
+.application-img img:hover {
+    transform: scale(1.1);
+}
+
+.single-application:last-child {
+    margin-right: 0px;
+}
+
+.single-application h2 {
+    padding: 10px 0px 30px 0px;
+        font-size: 18px;
+        font-family: sans-serif;
+        color: #333;
+    }
+
+
+  /* Featured Applications section ends here */
+
+  /* library section ends here */
+
+  .library {
+    background: #303030;
+}
+
+.library-wrapper {
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 0px;
+}
+
+.library-wrapper h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+button.btn1 {
+    padding: 10px;
+    background: #FBC200;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button.btn1:hover{
+    background-color: white;
+}
+
+/* librayr section ends here */
+
+/* footer section start here */
+
+footer.footer {
+    background: #666E72;
+    padding: 20px 0px;
+}
+
+.footer-wrapper {
+    overflow: hidden;
+}
+
+.footer-single {
+    width: 365px;
+    float: left;
+    margin-right: 50px;
+}
+
+.footer-single:last-child {
+    margin-right: 0px;
+}
+
+.footer-single h3 {
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.fmenu-left {
+    width: 180px;
+    float: left;
+}
+
+.fmenu-left ul li {list-style: none;padding-bottom: 20px;}
+
+.fmenu-left ul li a {
+    color: #fff;
+    transition: .3s;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.fmenu-left ul li a:hover {
+    color: #ef9917;
+    border: none;
+}
+
+.fmenu-right ul li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.fmenu-right ul li a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #fff;
+    transition: .3s;
+}
+
+.fmenu-right ul li a:hover {
+    color: #ef9917;
+    border: none;
+}
+
+.footer-single p {
+    font-size: 13px;
+    font-family: system-ui;
+    color: #fff;
+    padding-bottom: 30px;
+    line-height: 29px;
+}
+
+.ficon-left {
+    width: 180px;
+    float: left;
+}
+
+.ficon-left ul li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.ficon-left ul li a {
+    color: #fff;
+    text-decoration: none;
+    /* border-bottom: 1px solid; */
+    transition: .3s;
+}
+
+.ficon-left ul li a i {
+    padding: 5px;
+    background: #FBC200;
+    border-radius: 5px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.ficon-left ul li a:hover {
+    color: #ef9917;
+    
+}
+
+
+.ficon-right ul li {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.ficon-right ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.ficon-right ul li a:hover {
+    color: #ef9917;
+    
+}
+
+.ficon-right ul li a i {
+    padding: 5px;
+    background: #FBC200;
+    color: #333;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* footer section ends here */
+
+/* copy section start here */
+.coy {
+    background: #4C4D4E;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.coy p {
+    font-family: system-ui;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* copy section ends here */
